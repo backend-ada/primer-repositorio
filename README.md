@@ -14,9 +14,11 @@ GIT es un sistema de control de versiones distribuido, libre y de código abiert
 - **git status**                --> Muestra el estado del árbol del proyecto.
 - **git commit -m "<msg>"**     --> Crea un nuevo commit con un mensaje descriptivo. Dicho de otra forma, guarda los cambios en el repositorio y le asigna un mensaje descriptivo a ese nuevo punto en nuestro historial de versiones.
 - **git checkout**              --> Acceder a un punto en específico del historial de versiones.
-- **git switch -**              --> Acceder al punto anterior al actual. Es decir, si con checkout fui a cierto punto, con este comando vuelvo a dónde estaba.
+- **git switch <path>**         --> Permite cambiar de rama.
 - **git log**                   --> Ver todo el historial de commits.
-- **git push**                  --> Actualizar el repositorio remoto con todos los cambios locales.
+- **git branch <nombre-rama>**                    --> Permite crear una nueva rama de trabajo.
+- **git pull <repo-remoto> <nombre-rama>**        --> Descarga los cambios en el repositorio remoto (el que estamos trabajando).
+- **git push <repo-remoto> <nombre-rama>**        --> Actualiza el repositorio remoto con todos los cambios locales.
 
 # ¿Qué es GitHub?
 
